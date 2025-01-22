@@ -67,6 +67,7 @@ model Host {
   email           String
   phoneNumber     String
   profilePicture  String
+  aboutMe         String ?
   listings        Property[]
 }
 
